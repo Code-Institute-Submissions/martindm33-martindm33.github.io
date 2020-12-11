@@ -25,7 +25,7 @@ The site was built using [HTML](https://en.wikipedia.org/wiki/HTML), [CSS](https
 
 ## Aims
 
-- Provide members of the GIC with information about the upcoming movie
+- Provide members with information about the upcoming movie
 
 - Provide non-members with an understanding of the club and how it works
 
@@ -43,10 +43,12 @@ There are two expected audiences. Existing members of the cinema club and people
 
 ## Features
 
-- simple navigation menu
-- visual feedback indicators for navigation and links
-- A clean, consistent colour palette to provide a familiarity on each page
+- clear navigation menu
+- carousel of previous screenings
+- Instructions and links on how to set up your own cinema club
 
 ---
 
 ## Design
+
+I used [Coolors](https://coolors.co) to select a 3 tone palette that felt visually striking but also clean.
