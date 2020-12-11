@@ -1,45 +1,52 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# The Grand International Cineplex
 
-Welcome USER_NAME,
+Simple 3 page website for members of the GIC.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Aims](#aims)
+* [Audience](#audience)
+* [Features](#features)
+* [Design](#design)
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+---
 
-`python3 -m http.server`
+## General info
+This website was built as a submission for my first project in Code Institute's Full Stack Developer Diploma Course.
 
-A blue button should appear to click: *Make Public*,
+---
 
-Another blue button should appear to click: *Open Browser*.
+## Technologies
+The site was built using [HTML](https://en.wikipedia.org/wiki/HTML), [CSS](https://en.wikipedia.org/wiki/CSS) and components from [Bootstrap 4](https://getbootstrap.com/). It also makes use of [hover.css](https://ianlunn.github.io/Hover/) by Ian Lunn. The colour palette was chosen using [Fabrizio Bianchi's](fabrizio.io) [Coolors](https://coolors.co).
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+---
 
-A blue button should appear to click: *Make Public*,
+## Aims
 
-Another blue button should appear to click: *Open Browser*.
+- Provide members of the GIC with information about the upcoming movie
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Provide non-members with an understanding of the club and how it works
 
-## Updates Since The Instructional Video
+- Provide interested users with the steps to set up a similar cinema club for themselves
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- Provide a history of previous showings which link to their respective [IMDB](https://www.imdb.com/) pages
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+---
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Audience
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+There are two expected audiences. Existing members of the cinema club and people interested in learning more about the club and how to run their own online movie night.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+---
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Features
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- simple navigation menu
+- visual feedback indicators for navigation and links
+- A clean, consistent colour palette to provide a familiarity on each page
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+---
 
---------
-
-Happy coding!
+## Design

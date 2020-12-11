@@ -1,0 +1,31 @@
+.logo {
+    text-decoration: none;
+    color: #95F2D9;
+    float: left;
+    font-family: "Monoton", sans-serif;
+    font-size: 80px;
+    font-weight: 100;
+    text-transform: uppercase;
+    width: 50%;
+    letter-spacing: 20px;
+}
+
+.nav-menu {
+    text-decoration: none;
+    text-align: center;
+    color: #95F2D9;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.nav-menu li {
+    text-decoration: none;
+    float: right;
+    margin-right: 15px;
+    letter-spacing: 6px;
+}
