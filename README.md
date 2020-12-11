@@ -52,3 +52,10 @@ There are two expected audiences. Existing members of the cinema club and people
 ## Design
 
 I used [Coolors](https://coolors.co) to select a 3 tone palette that felt visually striking but also clean.
+
+The colours used are listed below as hex codes in case anyone wishes to use them.
+
+/* CSS HEX */
+--onyx: #454545ff;
+--magic-mint: #95f2d9ff;
+--wild-blue-yonder: #98a6d4ff;
