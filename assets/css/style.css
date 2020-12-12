@@ -1,4 +1,14 @@
+header {
+    top: 0;
+}
+
+footer {
+    bottom: 0;
+}
+
 .logo {
+    margin: 4px;
+    border: solid black;
     text-decoration: none;
     color: #95F2D9;
     float: left;
@@ -11,6 +21,7 @@
 }
 
 .nav-menu {
+    border: solid black;
     text-decoration: none;
     text-align: center;
     color: #95F2D9;
@@ -18,9 +29,8 @@
     position: absolute;
     top: 0;
     font-family: 'Montserrat', sans-serif;
-    float: left;
+    float: right;
     margin-bottom: 40px;
-    width: 100%;
 }
 
 .nav-menu li {
