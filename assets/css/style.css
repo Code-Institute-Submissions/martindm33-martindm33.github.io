@@ -20,6 +20,16 @@ li {
     list-style-type: none;
 }
 
+.left {
+    float: left;
+    text-align: left;
+    }
+
+.right {
+    float: right;
+    text-align: right;
+    }
+
 .breathing-room {
     padding-left: 10%;
     padding-right: 10%;
@@ -27,8 +37,8 @@ li {
 
 .header-settings {
     background-color: #645853;
-    height: 20vh;
-    max-height: 20vh;
+    height: 25vh;
+    max-height: 325vh;
 }
 
 .logo {
@@ -91,6 +101,7 @@ li {
 }
 
 .footer-settings {
+    width: 100%;
     position: absolute;
     bottom: 0;
     background-color: #645853;
@@ -99,7 +110,8 @@ li {
 }
 
 .footer-item a{
-    text-decoration: none;
+    text-align: center;
+    margin: 2em;
     text-decoration: none;
     color: #4CE0D2;
 }
@@ -169,3 +181,20 @@ li {
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
+
+    @media only screen and (min-width: 330) and (max-width: 330) {
+    .logo {
+            
+        padding: .5em;
+        text-decoration: none;
+        float: none;
+        font-family: "Monoton", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        text-align: justify;
+        word-wrap: normal;
+    }
+
+    .wrap-float {
+        width: 100%;
+    }
