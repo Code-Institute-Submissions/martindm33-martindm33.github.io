@@ -6,47 +6,50 @@ body {
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
 }
 
+li a{
+    text-decoration: none;
+    color: #4CE0D2;
+    padding: 10px;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
 
+.lowercase {
+    text-transform: lowercase;
+}
+
 .right {
-    float: right;
+    text-align: right;
 }
 
 .left {
-    float: left;
+    text-align: left;
 }
 
 .navbar {
     display: flex;
-    flex-direction: row-reverse;
     background-color: #645853;
     color: #4CE0D2;
-    height: 20vh;
+    min-height: 20vh;
+    max-height: 30vh;
 }
 
 .logo {
-    text-align: center;
-    margin-right: 4px;
+    text-align: right;
+    margin-left: 8px;
     padding: 4px;
-    border: 2.5px solid #4CE0D2;
+    border-right: 2px solid #4CE0D2;
     font-family: "Monoton", sans-serif;
     font-size: 2.5em;
-    color: #4CE0D2;
-}
-
-.footer-logo {
-    margin-right: 4px;
-    padding: 4px;
-    font-family: "Monoton", sans-serif;
-    font-size: .5em;
     color: #4CE0D2;
 }
 
@@ -58,16 +61,24 @@ a {
     width: 50%;
 }
 .navmenu-item {
-    justify-content: right;
-}
-
-li a{
-    text-decoration: none;
-    color: #4CE0D2;
+    border-bottom: .5px solid #4CE0D2;
 }
 
 .navbar-item li a:hover {
     color: #ED9B40;
+    border-bottom: 1px solid #ED9B40;
+}
+
+
+/*---------------------------------------------------------------------------------------Main Content.css*/
+
+
+.now-showing {
+    height: 300vh;
+    border: 10px solid red;
+    background-image: url("assets/images/showing_soon.jpg");
+    background-repeat: none;
+    background-color: #cccccc;
 }
 
 
@@ -79,11 +90,23 @@ li a{
 
 
 
+.footer-bar {
+    position: fixed;
+    bottom: 0;
+    background: #645853;
+    color: #4CE0D2;
+    width: 100vw;
+    height: 10vh;
+    max-height: 20vh;
+}
 
-
-
-
-
+.logo-footer {
+    text-align: left;
+    margin-left: 8px;
+    padding: 4px;
+    font-family: "Montserrat", sans-serif;
+    font-size: .5em;
+}
 
 
 /*---------------------------------------------------------------------------------------Bob hover.css*/
