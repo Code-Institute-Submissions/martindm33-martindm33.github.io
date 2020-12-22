@@ -1,0 +1,255 @@
+/*---
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul {
+    padding: 0px;
+}
+
+a {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.wrap-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.left {
+    float: left;
+    text-align: left;
+    }
+
+.right {
+    float: right;
+    text-align: right;
+    }
+
+.breathing-room {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header-settings {
+    background-color: #645853;
+    height: 25vh;
+    max-height: 325vh;
+}
+
+.logo {
+    padding: .5em;
+    border: 1px solid #4CE0D2;
+    margin-top: 30px;
+    text-decoration: none;
+    float: left;
+    font-family: "Monoton", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    text-align: justify;
+    word-wrap: normal;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #4CE0D2;
+}
+
+.logo a:hover {
+    color: #ED9B40;
+}
+
+.nav-menu {
+    text-transform: uppercase;
+    margin-top: 15px;
+    text-decoration: none;
+    letter-spacing: 6px;
+    line-height: 50px;
+    float: right;
+    text-align: right;
+    position: relative;
+    top: 0;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+.nav-menu a {
+    color: #4CE0D2;
+}
+
+.nav-menu a:hover {
+    color: #ED9B40;
+}
+
+--------------------------------------------------------------------------------- Body and Footer
+
+.showing-soon {
+    background-image: url(../images/star-wars-1080p.jpg);
+    background-repeat: none;
+    background-size: 100%;
+    /* background-color: #717171;  ---- comment out
+}
+
+.blurb {
+    width: 30%;
+    float: right;
+}
+
+.footer-settings {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #645853;
+    text-decoration: none;
+    height: 10vh;
+}
+
+.footer-item a{
+    margin: 2em;
+    text-decoration: none;
+    color: #4CE0D2;
+}
+
+.footer-item {
+    display: inline;
+}
+
+footer ul{
+    text-align: center;
+    display: inline;
+}
+
+ul .list-item {
+    margin-top: 50px;
+}
+
+----------------------------------------------------------Bob hover.css 
+
+@-webkit-keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@-webkit-keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+.hvr-bob {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 950px) {
+
+.logo {        
+    padding: .5em;
+    text-decoration: none;
+    float: none;
+    font-family: "Monoton", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    word-wrap: normal;
+    margin-top: 15px;
+    letter-spacing: 5px;
+    }
+
+.nav-menu {
+    font-size: .75em;
+    text-transform: uppercase;
+    margin-top: 5px;
+    text-decoration: none;
+    letter-spacing: 5px;
+    line-height: 50px;
+    position: relative;
+    top: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    }
+
+.header-settings {
+    background-color: #645853;
+    height: 30vh;
+    position: absolute;
+    top: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

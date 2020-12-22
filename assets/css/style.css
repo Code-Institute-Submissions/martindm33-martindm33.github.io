@@ -1,120 +1,90 @@
-h3 {
-    font-family: "Montserrat", sans-serif;
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
 }
 
 a {
     text-decoration: none;
-    list-style-type: none;
 }
 
-ul {
-    padding: 0px;
+.uppercase {
+    text-transform: uppercase;
 }
 
-a {
-    list-style-type: none;
-}
-
-li {
-    list-style-type: none;
+.right {
+    float: right;
 }
 
 .left {
     float: left;
-    text-align: left;
-    }
-
-.right {
-    float: right;
-    text-align: right;
-    }
-
-.breathing-room {
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
-.header-settings {
+.navbar {
+    display: flex;
+    flex-direction: row-reverse;
     background-color: #645853;
-    height: 25vh;
-    max-height: 325vh;
+    color: #4CE0D2;
+    height: 20vh;
 }
 
 .logo {
-    padding: .5em;
-    border: 1px solid #4CE0D2;
-    margin-top: 30px;
-    text-decoration: none;
-    float: left;
-    font-family: "Monoton", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 20px;
-    text-align: justify;
-    word-wrap: normal;
-}
-
-.logo a {
-    text-decoration: none;
-    color: #4CE0D2;
-}
-
-.logo a:hover {
-    color: #ED9B40;
-}
-
-.nav-menu {
-    text-transform: uppercase;
-    margin-top: 15px;
-    text-decoration: none;
-    letter-spacing: 6px;
-    line-height: 50px;
-    float: right;
-    text-align: right;
-    position: relative;
-    top: 0;
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 25px;
-    padding: 20px;
-}
-
-.nav-menu a {
-    color: #4CE0D2;
-}
-
-.nav-menu a:hover {
-    color: #ED9B40;
-}
-
-/*-------------------------------------------------------------------------------------- Body and Footer */
-
-.showing-soon {
-    background-image: url(../images/star-wars-1080p.jpg);
-    background-repeat: none;
-    background-size: 100%;
-    /* background-color: #717171; */
-}
-
-.blurb {
-    width: 30%;
-    float: right;
-}
-
-.footer-settings {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    background-color: #645853;
-    text-decoration: none;
-    height: 10vh;
-}
-
-.footer-item a{
     text-align: center;
-    margin: 2em;
+    margin-right: 4px;
+    padding: 4px;
+    border: 2.5px solid #4CE0D2;
+    font-family: "Monoton", sans-serif;
+    font-size: 2.5em;
+    color: #4CE0D2;
+}
+
+.footer-logo {
+    margin-right: 4px;
+    padding: 4px;
+    font-family: "Monoton", sans-serif;
+    font-size: .5em;
+    color: #4CE0D2;
+}
+
+.logo:hover {
+    color: #ED9B40;
+}
+
+.navbar-item {
+    width: 50%;
+}
+.navmenu-item {
+    justify-content: right;
+}
+
+li a{
     text-decoration: none;
     color: #4CE0D2;
 }
+
+.navbar-item li a:hover {
+    color: #ED9B40;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*---------------------------------------------------------------------------------------Bob hover.css*/
 
@@ -181,20 +151,3 @@ li {
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
-
-    @media only screen and (min-width: 330) and (max-width: 330) {
-    .logo {
-            
-        padding: .5em;
-        text-decoration: none;
-        float: none;
-        font-family: "Monoton", sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 5px;
-        text-align: justify;
-        word-wrap: normal;
-    }
-
-    .wrap-float {
-        width: 100%;
-    }
