@@ -36,7 +36,6 @@ li a{
 }
 
 .navbar {
-    display: flex;
     background-color: #645853;
     color: #4CE0D2;
     min-height: 20vh;
@@ -65,7 +64,7 @@ li a{
     width: 50%;
 }
 
-.navbar-item li a:hover {
+.navbar-item a:hover {
     color: #ED9B40;
     border-bottom: 1px solid #ED9B40;
 }
@@ -97,7 +96,7 @@ li a{
     font-size: 2em;
     font-family: "Monoton", sans-serif;
     letter-spacing: 5px;
-    text-align: center;
+    text-align: left;
 }
 
 /*---------------------------------------------------------------------------------------Carousel Settings*/
@@ -172,4 +171,62 @@ li a{
   animation-fill-mode: forwards;
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
+}
+
+/*-------------------------------------------------------------------------------------------Breakpoint for small devices*/
+
+@media only screen and (max-width: 610px) {
+
+.navbar {
+    background-color: #645853;
+    color: #4CE0D2;
+    min-height: 10vh;
+    max-height: 20vh;
+}
+
+.logo {
+    text-align: left;
+    margin: 10px;
+    padding: 4px;
+    font-family: "Monoton", sans-serif;
+    font-size: 1.5em;
+    color: #4CE0D2;
+    width: 100%;
+}
+
+.navmenu-item {
+    display: none;
+}
+
+.logo {
+    border-top: 2px solid #4CE0D2;
+    border-bottom: 2px solid #4CE0D2;
+    text-align: center;
+    margin: 8px;
+    font-family: "Monoton", sans-serif;
+    font-size: 2em;
+    color: #4CE0D2;
+}
+
+.navbar-item {
+    width: 100%;
+}
+
+.carousel {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
