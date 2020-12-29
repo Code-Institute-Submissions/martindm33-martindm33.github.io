@@ -57,11 +57,12 @@ li a{
     color: #ED9B40;
 }
 
-.navbar-item {
-    width: 50%;
-}
 .navmenu-item {
     border-bottom: .5px solid #4CE0D2;
+}
+
+.navbar-item {
+    width: 50%;
 }
 
 .navbar-item li a:hover {
@@ -73,12 +74,10 @@ li a{
 /*---------------------------------------------------------------------------------------Main Content.css*/
 
 
-.now-showing {
-    height: 300vh;
-    border: 10px solid red;
-    background-image: url("assets/images/showing_soon.jpg");
-    background-repeat: none;
-    background-color: #cccccc;
+.razzle-dazzle {
+    font-size: 50vh;
+    border-style: dotted;
+    border-color: #fafafa;
 }
 
 
@@ -104,7 +103,6 @@ li a{
     text-align: left;
     margin-left: 8px;
     padding: 4px;
-    font-family: "Montserrat", sans-serif;
     font-size: .5em;
 }
 
