@@ -1,5 +1,7 @@
 
 body {
+    position: relative;
+    min-height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -40,11 +42,11 @@ li a{
     color: #4CE0D2;
     min-height: 20vh;
     max-height: 30vh;
+    letter-spacing: 8px;
 }
 
 .logo {
     text-align: right;
-    margin-left: 8px;
     padding: 4px;
     border-right: 2px solid #4CE0D2;
     font-family: "Monoton", sans-serif;
@@ -57,6 +59,7 @@ li a{
 }
 
 .navmenu-item {
+    display: inline;
     border-bottom: .5px solid #4CE0D2;
 }
 
@@ -73,41 +76,43 @@ li a{
 /*---------------------------------------------------------------------------------------Main Content.css*/
 
 .sliding-image {
-    /*
-    width: 1920px;
-    height: 1080px;
-    background-color: #727272;
-    */
     width: 100%;
     height: 100%;
 }
 
+.showing-soon {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    letter-spacing: 3px;
+    font-size: 1em;
+}
+
 .footer-bar {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background: #645853;
     color: #4CE0D2;
     width: 100vw;
     height: 10vh;
-    max-height: 20vh;
+    max-height: 25vh;
+    margin-top: auto;
 }
 
 .logo-footer {
-    font-size: 2em;
-    font-family: "Monoton", sans-serif;
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
     letter-spacing: 5px;
-    text-align: left;
+    color: #4CE0D2;
+    margin-top: auto;
+    margin-left: 2vw;
 }
 
-/*---------------------------------------------------------------------------------------Carousel Settings*/
-
-.carousel {
-    data-bs-interval: 5000s;
-    data-bs-wrap: false;
-
+.about-text {
+    margin: 5px;
+    max-width: 30vw;
 }
 
-/*---------------------------------------------------------------------------------------Bob hover.css*/
+/*------------------------------------------------------------------------------------------Hover.css */
 
 @-webkit-keyframes hvr-bob {
   0% {
@@ -173,59 +178,46 @@ li a{
   animation-direction: normal, alternate;
 }
 
-/*-------------------------------------------------------------------------------------------Breakpoint for small devices*/
+/*-------------------------------------------------------------------------------------------Breakpoint for smaller devices*/
 
-@media only screen and (max-width: 610px) {
+@media only screen and (max-width: 780px) {
 
 .navbar {
     background-color: #645853;
     color: #4CE0D2;
-    min-height: 10vh;
     max-height: 20vh;
 }
 
 .logo {
-    text-align: left;
-    margin: 10px;
-    padding: 4px;
-    font-family: "Monoton", sans-serif;
-    font-size: 1.5em;
+    display: block;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
     color: #4CE0D2;
-    width: 100%;
+    max-width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border: 2px solid #4CE0D2;
 }
 
 .navmenu-item {
-    display: none;
-}
-
-.logo {
-    border-top: 2px solid #4CE0D2;
-    border-bottom: 2px solid #4CE0D2;
-    text-align: center;
-    margin: 8px;
-    font-family: "Monoton", sans-serif;
-    font-size: 2em;
-    color: #4CE0D2;
+    display: block;
+    border: none;
+    line-height: 2px;
 }
 
 .navbar-item {
-    width: 100%;
+    width: 100%; 
 }
 
 .carousel {
     display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
+.about-text {
+    display: none;
+}
 
 
 
