@@ -80,11 +80,13 @@ li a{
     height: 100%;
 }
 
-.showing-soon {
+.blurb {
+    background-image: url("assets/images/showing_soon.jpg");
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
     letter-spacing: 3px;
     font-size: 1em;
+    width: 30vw;
 }
 
 .footer-bar {
@@ -202,7 +204,7 @@ li a{
 }
 
 .navmenu-item {
-    display: block;
+    display: inline-block;
     border: none;
     line-height: 2px;
 }
