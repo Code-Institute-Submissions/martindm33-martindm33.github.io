@@ -12,14 +12,25 @@
     padding-right: 5px;
 }
 
-.box {
-    padding: .5em;
-    border: 3px solid rgba(0,0,0,.5);
-}
-
 .navbar-expand-md .navbar-nav{
     flex-direction: column;
 }
+
+.bg-dark {
+    background-color: #645853ff !important;
+}
+
+.bordered {
+    border: 2px solid blue;
+}
+
+#footer-logo {
+    color: #4ce0d2ff;
+    font-family: "Monoton", sans-serif;
+    font-size: 2em;
+    text-align: right;
+}
+
 /*----------------------------------------------------------------------Hover.css */
 
 @-webkit-keyframes hvr-bob {
