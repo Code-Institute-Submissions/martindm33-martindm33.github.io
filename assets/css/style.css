@@ -1,15 +1,24 @@
+h2 {
+    text-align: center;
+    margin-top: 5px;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
 
 .left-border {
-    border-left: 2px solid rgba(0,0,0,.5);
+    border-left: 2px solid #4ce0d2ff;
     padding-left: 5px;
 }
 
 .right-border {
-    border-right: 2px solid rgba(0,0,0,.5);
+    border-right: 2px solid #4ce0d2ff;
     padding-right: 5px;
+}
+
+.btm-border {
+    border-bottom: 2px solid #4ce0d2ff;
 }
 
 .navbar-expand-md .navbar-nav{
@@ -25,21 +34,72 @@
 }
 
 .showing-soon {
-    margin-top: 3em;
-    margin-bottom: 3em;
+    background-image: ("assets/images/john-wick-GIC.jpg");
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
-        color: #4ce0d2ff;
+    color: #4ce0d2ff;
     font-family: "Monoton", sans-serif;
+    font-size: 3em;
+    padding-left: 10px;
+    padding-right: 8px;
+}
+
+.logo:hover {
+    color: #645853ff !important;
+}
+
+.nav-link:hover {
+    color: #645853ff !important;
+}
+
+.social-link {
+    display: inline-block;
+}
+
+.social-link li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #4ce0d2ff;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #4ce0d2ff;
+    border-color: #4ce0d2ff;
+    margin-right: 8px;
+    margin-left: 8px;
 }
 
 #footer-logo {
     margin: 5px;
     color: #4ce0d2ff;
-    font-family: "Monoton", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 2em;
     text-align: right;
+}
+
+#blurb-text {
+  font-size: 130%;
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  width: 500px;
+  height: 300px;
+
+  padding-top: 40px;
+  padding-left: 10px;
+
+  background-color: rgba(241, 109, 107, .7);
+
+  bottom: 30px;
+  right: 150px;
+
+  position: absolute;
 }
 
 
@@ -148,4 +208,61 @@
 .hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+.hvr-sweep-to-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #4ce0d2ff;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-left:hover, .hvr-sweep-to-left:focus, .hvr-sweep-to-left:active {
+  color: white;
+}
+.hvr-sweep-to-left:hover:before, .hvr-sweep-to-left:focus:before, .hvr-sweep-to-left:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+@media only screen and (max-width: 1300px) {
+
+.logo {
+    font-size: 1.5em;
+    word-break: break-all;
+}
+
+
+
+
+
+
+
+
+
 }
