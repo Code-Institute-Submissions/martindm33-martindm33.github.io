@@ -24,12 +24,25 @@
     border: 2px solid blue;
 }
 
+.showing-soon {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.logo {
+        color: #4ce0d2ff;
+    font-family: "Monoton", sans-serif;
+}
+
 #footer-logo {
+    margin: 5px;
     color: #4ce0d2ff;
     font-family: "Monoton", sans-serif;
     font-size: 2em;
     text-align: right;
 }
+
+
 
 /*----------------------------------------------------------------------Hover.css */
 

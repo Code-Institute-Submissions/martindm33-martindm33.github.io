@@ -14,7 +14,7 @@ Simple 3 page website for members of the GIC.
 ---
 
 ## General info
-This website was built as a submission for my first project in Code Institute's Full Stack Developer Diploma Course.
+This website was built as a submission for my first project in Code Institute's Full Stack Developer Diploma Course. It has been rebuilt twice as I have come to grips with the technologies involved and developed my own personal skills regarding planning and time management.
 
 ---
 
@@ -43,8 +43,8 @@ There are two expected audiences. Existing members of the cinema club and people
 
 ## Features
 
-- clear navigation menu
-- carousel of previous screenings
+- clear responsive navigation menu at the top of the page
+- large attention grabbing image ion the landing page, informing the user of the upciming film
 - Instructions and links on how to set up your own cinema club
 
 ---
@@ -53,9 +53,11 @@ There are two expected audiences. Existing members of the cinema club and people
 
 I used [Coolors](https://coolors.co) to select a 3 tone palette that felt visually striking but also clean.
 
-The colours used are listed below as hex codes in case anyone wishes to use them.
+---
 
-/* CSS HEX */
---onyx: #454545ff;
---magic-mint: #95f2d9ff;
---wild-blue-yonder: #98a6d4ff;
+
+### Attribution
+
+The images used in this site were taken from various sources around the web. I have listed them below along with links to where they can be found.
+
+John Wick Action Figurine poster - [Reddit](https://www.reddit.com/r/ActionFigures/comments/d3hssl/recreated_the_john_wick_2_poster_hope_you_all/)
