@@ -1,120 +1,26 @@
-
-body {
-    position: relative;
-    min-height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-li a{
-    text-decoration: none;
-    color: #4CE0D2;
-    padding: 10px;
-}
-
 .uppercase {
     text-transform: uppercase;
 }
 
-.lowercase {
-    text-transform: lowercase;
+.left-border {
+    border-left: 2px solid rgba(0,0,0,.5);
+    padding-left: 5px;
 }
 
-.right {
-    text-align: right;
+.right-border {
+    border-right: 2px solid rgba(0,0,0,.5);
+    padding-right: 5px;
 }
 
-.left {
-    text-align: left;
+.box {
+    padding: .5em;
+    border: 3px solid rgba(0,0,0,.5);
 }
 
-.navbar {
-    background-color: #645853;
-    color: #4CE0D2;
-    min-height: 20vh;
-    max-height: 30vh;
-    letter-spacing: 8px;
+.navbar-expand-md .navbar-nav{
+    flex-direction: column;
 }
-
-.logo {
-    text-align: right;
-    padding: 4px;
-    border-right: 2px solid #4CE0D2;
-    font-family: "Monoton", sans-serif;
-    font-size: 2.5em;
-    color: #4CE0D2;
-}
-
-.logo:hover {
-    color: #ED9B40;
-}
-
-.navmenu-item {
-    display: inline;
-    border-bottom: .5px solid #4CE0D2;
-}
-
-.navbar-item {
-    width: 50%;
-}
-
-.navbar-item a:hover {
-    color: #ED9B40;
-    border-bottom: 1px solid #ED9B40;
-}
-
-
-/*---------------------------------------------------------------------------------------Main Content.css*/
-
-.sliding-image {
-    width: 100%;
-    height: 100%;
-}
-
-.blurb {
-    background-image: url("assets/images/showing_soon.jpg");
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    letter-spacing: 3px;
-    font-size: 1em;
-    width: 30vw;
-}
-
-.footer-bar {
-    position: fixed;
-    bottom: 0;
-    background: #645853;
-    color: #4CE0D2;
-    width: 100vw;
-    height: 10vh;
-    max-height: 25vh;
-    margin-top: auto;
-}
-
-.logo-footer {
-    font-size: 1em;
-    font-family: "Montserrat", sans-serif;
-    letter-spacing: 5px;
-    color: #4CE0D2;
-    margin-top: auto;
-    margin-left: 2vw;
-}
-
-.about-text {
-    margin: 5px;
-    max-width: 30vw;
-}
-
-/*------------------------------------------------------------------------------------------Hover.css */
+/*----------------------------------------------------------------------Hover.css */
 
 @-webkit-keyframes hvr-bob {
   0% {
@@ -180,47 +86,42 @@ li a{
   animation-direction: normal, alternate;
 }
 
-/*-------------------------------------------------------------------------------------------Breakpoint for smaller devices*/
-
-@media only screen and (max-width: 780px) {
-
-.navbar {
-    background-color: #645853;
-    color: #4CE0D2;
-    max-height: 20vh;
+.hvr-sweep-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
-
-.logo {
-    display: block;
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
-    color: #4CE0D2;
-    max-width: 70vw;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    border: 2px solid #4CE0D2;
+.hvr-sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #4ce0d2ff;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
-
-.navmenu-item {
-    display: inline-block;
-    border: none;
-    line-height: 2px;
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+  color: white;
 }
-
-.navbar-item {
-    width: 100%; 
-}
-
-.carousel {
-    display: none;
-}
-
-.about-text {
-    display: none;
-}
-
-
-
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
