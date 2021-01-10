@@ -3,6 +3,14 @@ h2 {
     margin-top: 5px;
 }
 
+p {
+    margin-bottom: 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -33,14 +41,6 @@ h2 {
     border: 2px solid blue;
 }
 
-.showing-soon {
-    background-image: ("assets/images/john-wick-GIC.jpg");
-    width: 100vw;
-    height: auto;
-    margin: 0;
-    padding: 0;
-}
-
 .logo {
     color: #4ce0d2ff;
     font-family: "Monoton", sans-serif;
@@ -62,44 +62,59 @@ h2 {
 }
 
 .social-link li a {
+    color: #4ce0d2ff;
+
     text-decoration: none;
     list-style-type: none;
-    color: #4ce0d2ff;
 }
 
 .navbar-dark .navbar-toggler {
     color: #4ce0d2ff;
     border-color: #4ce0d2ff;
+
     margin-right: 8px;
     margin-left: 8px;
 }
 
-#footer-logo {
-    margin: 5px;
-    color: #4ce0d2ff;
-    font-family: "Montserrat", sans-serif;
-    font-size: 2em;
-    text-align: right;
+#showing-soon {
+    background: url("/assets/images/johnwick.jpg") no-repeat center center;
+    margin: 0;
+    padding: 0;
+    color: #fafafa;
+    line-height: 3;
 }
 
 #blurb-text {
-  font-size: 130%;
-  font-family: Oswald;
-  text-transform: uppercase;
-  letter-spacing: 4px;
+    background-color: rgba(10, 9, 3, .7);
+    padding: 20px;
+    letter-spacing: 4px;
+}
 
-  width: 500px;
-  height: 300px;
+.card-body {
+    background-color: rgba(10, 9, 3, .7);
+    color: #fafafa;
+    text-align: center;
+}
+.card-body a {
+    color: inherit;
+}
 
-  padding-top: 40px;
-  padding-left: 10px;
+.card-img-top {
+    max-height: 400px;
+}
 
-  background-color: rgba(241, 109, 107, .7);
+.about-bar {
+    background-color: rgba(10, 9, 3, .7);
+    border-top: 2px solid rgba(10, 9, 3, .7);
+    border-bottom: 2px solid rgba(10, 9, 3, .7);
+    font-family: "Montserrat", sans-serif;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    letter-spacing: 4px;
+    padding: 20px 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 
-  bottom: 30px;
-  right: 150px;
-
-  position: absolute;
 }
 
 
@@ -250,18 +265,18 @@ h2 {
   transform: scaleX(1);
 }
 
-@media only screen and (max-width: 1300px) {
+
+/*
+@media only screen and (max-width: 1285px) {
 
 .logo {
-    font-size: 1.5em;
-    word-break: break-all;
+    font-size: 2rem;
+    width: 70vw;
 }
 
+.fixed-bottom {
 
-
-
-
-
+}
 
 
 
