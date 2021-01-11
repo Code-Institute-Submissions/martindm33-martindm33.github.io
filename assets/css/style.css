@@ -85,7 +85,6 @@ a :hover {
     display: inline-block;
     text-align: center;
     letter-spacing: 10px;
-    font-size: em;
 }
 
 .navbar-dark .navbar-toggler {
@@ -129,8 +128,8 @@ a :hover {
 
 .about-bar {
     background-color: rgba(10, 9, 3, .7);
-    border-top: 15px dashed rgba(10, 9, 3, .7);
-    border-bottom: 15px dashed rgba(10, 9, 3, .7);
+    border-top: 15px dashed black;
+    border-bottom: 15px dashed black;
     font-family: "Montserrat", sans-serif;
     color: rgba(255,255,255,1);
     text-align: center;
