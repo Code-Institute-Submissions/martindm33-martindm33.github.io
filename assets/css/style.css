@@ -7,8 +7,25 @@ p {
     margin-bottom: 0px;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a :hover {
+    color: #fafafa;
+}
+
 .text-center {
     text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
 }
 
 .uppercase {
@@ -76,6 +93,10 @@ p {
     margin-left: 8px;
 }
 
+.film-title {
+    line-height: 1.5;
+}
+
 #showing-soon {
     background: url("/assets/images/johnwick.jpg") no-repeat center center;
     margin: 0;
@@ -85,9 +106,20 @@ p {
 }
 
 #blurb-text {
-    background-color: rgba(10, 9, 3, .7);
+    background-color: rgba(10, 9, 3, .8);
     padding: 20px;
     letter-spacing: 4px;
+}
+
+.steps {
+    background-color: rgba(245, 75, 2, 0.6);
+    color: black;
+    height: 20vh;
+
+    /*
+    border-left: 16px dashed black;
+    border-right: 16px dashed black;
+    */
 }
 
 .card-body {
@@ -115,6 +147,10 @@ p {
     margin-top: 25px;
     margin-bottom: 25px;
 
+}
+
+.jumbotron {
+    margin: 35px 0px;
 }
 
 

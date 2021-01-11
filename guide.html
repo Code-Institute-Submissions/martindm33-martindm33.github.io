@@ -22,9 +22,10 @@
 <body>
     <header>
 
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark .d-md-none .d-lg-block">
 
-            <a href="index.html" class="navbar-brand uppercase logo hvr-sweep-to-left">The Grand &shyInter&shynational&shy Cineplex</a>
+            <a href="index.html" class="navbar-brand uppercase logo hvr-sweep-to-left">The Grand
+                &shyInter&shynational&shy Cineplex</a>
 
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#burger-menu"><span
                     class="navbar-toggler-icon"></span></button>
@@ -33,41 +34,59 @@
 
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link uppercase hvr-sweep-to-right left-border btm-border">Home</a>
+                        <a href="index.html"
+                            class="nav-link uppercase hvr-sweep-to-right left-border btm-border">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="reel.html" class="nav-link uppercase hvr-sweep-to-right left-border btm-border">Film-Reel</a>
+                        <a href="reel.html"
+                            class="nav-link uppercase hvr-sweep-to-right left-border btm-border">Film-Reel</a>
                     </li>
                     <li class="nav-item">
-                        <a href="guide.html" class="nav-link uppercase hvr-sweep-to-right left-border btm-border">Host A Movie Night</a>
+                        <a href="guide.html" class="nav-link uppercase hvr-sweep-to-right left-border btm-border">Host A
+                            Movie Night</a>
                     </li>
 
                 </ul>
             </div>
-                
+
         </nav>
 
     </header>
 
-    <section class="container-fluid row">
+    <div class="container-fluid about-bar">
+        <p>There are a few things you will need to get started running a movie night. All of the software is free, but each person watching the movie will require their own access to the streaming service you choose to use. (Netlfix, HULU etc).</p>
 
-        <div class="col-md-2"></div>
-        
-        <div class="col-md-8 showing-soon"><img src="assets/images/john-wick-GIC.jpg" class="img-fluid" alt="John Wick Movie Poster"></div>
-
-        <div class="col-md-2"></div>
-        
-    </section>
-
--->
+    </div>
 
 
-    <footer class=" container-fluid bg-dark fixed-bottom">
-         <div class="row">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container steps">
+            <h1 class="display-4 uppercase">Step 1 <a href="https://www.google.com/chrome/" target="_blank"><i class="fab fa-chrome"></a></i> Chrome</h1>
+            <p class="lead">The plugin we will use to organise the group-watch is compatible with Google's Chrome browser. This is a free browser available for download <a href="https://www.google.com/chrome/" target="_blank"> here.</a> Once you have installed it make sure that you can succesfully login to the streaming service you are planning to use.</p>
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container text-right steps">
+            <h1 class="display-4 uppercase">Step 2 - Teleparty</h1>
+            <p class="lead">Head to the <a href="https://www.netflixparty.com/" target="_blank">Teleparty</a> website and follow their simple guide on adding Teleparty to Chrome.</p>
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container steps">
+            <h1 class="display-4 uppercase">Step 3 <i class="fas fa-network-wired" style="color: #fafafa;"></i> Linking Up</h1>
+            <p class="lead">Once you have the plugin installed you are ready to start your movie night. Simply open your streaming service, find the film you want to watch and open it. Pause the movie and press the Teleparty plugin button to the right of the Google Chrome address bar. Tick the "Only I Have Control" box, copy the link and you're ready to start. All that remains is to share the link with your friends and each user can login and get ready for the movie.<br>As soon as you're ready to start simply hit play and start chatting. Talking is encouraged in this cinema!</p>
+        </div>
+    </div>
+
+    <footer class="container-fluid bg-dark fixed-bottom">
+        <div class="row">
 
             <div class="col-md-4"></div>
-            <div class="col-md-4">
+            <div class="col-md-4"></div>
 
+            <div class="col-md-4 bordered">
                 <ul>
                     <li class="social-link">
                         <a href="https://github.com/martindm33"><i class="fas fa-code"></i></a>
@@ -80,16 +99,17 @@
                     <li class="social-link">
                         <a href="www.linkedin.com/in/martin-dixon-murphy"><i class="fab fa-linkedin-in"></i></a>
                     </li>
-                </ul>
 
+                </ul>
             </div>
-            <div class="col-md-4"></div>
 
         </div>
 
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
