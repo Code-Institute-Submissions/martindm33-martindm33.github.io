@@ -21,6 +21,8 @@ This website was built as a submission for my first project in Code Institute's 
 ## Technologies
 The site was built using [HTML](https://en.wikipedia.org/wiki/HTML), [CSS](https://en.wikipedia.org/wiki/CSS) and components from [Bootstrap](https://getbootstrap.com/). It also makes use of [hover.css](https://ianlunn.github.io/Hover/) by Ian Lunn. The colour palette was chosen using [Fabrizio Bianchi's](fabrizio.io) [Coolors](https://coolors.co).
 
+
+I used modified smaple code from the Bootstrap Docs for much of this project.
 ---
 
 ## Aims
