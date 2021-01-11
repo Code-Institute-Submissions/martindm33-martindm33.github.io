@@ -14,20 +14,18 @@ Simple 3 page website for members of the GIC.
 ---
 
 ## General info
-This website was built as a submission for my first project in Code Institute's Full Stack Developer Diploma Course. It has been rebuilt twice as I have come to grips with the technologies involved and developed my own personal skills regarding planning and time management.
+This website was built as a submission for my first project in Code Institute's Full Stack Developer Diploma Course. It has been rebuilt twice as I have come to grips with the technologies involved and developed my own personal skills regarding planning and time management. In it's current state I consider it to be unfinished and incomplete.
 
 ---
 
 ## Technologies
-The site was built using [HTML](https://en.wikipedia.org/wiki/HTML), [CSS](https://en.wikipedia.org/wiki/CSS) and components from [Bootstrap 4](https://getbootstrap.com/). It also makes use of [hover.css](https://ianlunn.github.io/Hover/) by Ian Lunn. The colour palette was chosen using [Fabrizio Bianchi's](fabrizio.io) [Coolors](https://coolors.co).
+The site was built using [HTML](https://en.wikipedia.org/wiki/HTML), [CSS](https://en.wikipedia.org/wiki/CSS) and components from [Bootstrap](https://getbootstrap.com/). It also makes use of [hover.css](https://ianlunn.github.io/Hover/) by Ian Lunn. The colour palette was chosen using [Fabrizio Bianchi's](fabrizio.io) [Coolors](https://coolors.co).
 
 ---
 
 ## Aims
 
 - Provide members with information about the upcoming movie
-
-- Provide non-members with an understanding of the club and how it works
 
 - Provide interested users with the steps to set up a similar cinema club for themselves
 
@@ -44,7 +42,7 @@ There are two expected audiences. Existing members of the cinema club and people
 ## Features
 
 - clear responsive navigation menu at the top of the page
-- large attention grabbing image ion the landing page, informing the user of the upciming film
+- large attention grabbing image ion the landing page, informing the user of the upcoming film
 - Instructions and links on how to set up your own cinema club
 
 ---
@@ -58,6 +56,20 @@ I used [Coolors](https://coolors.co) to select a 3 tone palette that felt visual
 
 ### Attribution
 
-The images used in this site were taken from various sources around the web. I have listed them below along with links to where they can be found.
+All film posters used on the reel page were obtained from Wikipedia.
 
-John Wick Action Figurine poster - [Reddit](https://www.reddit.com/r/ActionFigures/comments/d3hssl/recreated_the_john_wick_2_poster_hope_you_all/)
+The John Wick Action Figurine poster used on the main page can be found here: - [Reddit](https://www.reddit.com/r/ActionFigures/comments/d3hssl/recreated_the_john_wick_2_poster_hope_you_all/)
+
+---
+
+### Issues
+
+I was unable to create a logo in that font that scaled properly with the page. I struggled greatly to make get breakpoints and other similar areas of web design to work in the way that I wanted.
+
+I was unable to center the film reel cards, and also could not find a way to have all of them adapt responsively on the same line.
+
+---
+
+### Personal Note
+
+I am unhappy with the finihsed product that I am submitting to you for this Milestone Assesment. While I feel I have learnt a lot, and come to understand how much I don't know yet, it is clear that I didn't have a well laid out plan and design for the site. I found myself struggling to move on from things I could not perfect, and rebuilding things over and over. THank you for taking the time to review and judge my project!
