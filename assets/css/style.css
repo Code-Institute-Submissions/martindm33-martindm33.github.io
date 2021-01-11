@@ -9,11 +9,16 @@ p {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: #4ce0d2ff;
 }
 
 a :hover {
-    color: #fafafa;
+    color: #ed9b40ff;
+}
+
+.film-strip {
+    border-left: 20px dashed black;
+    border-right: 20px dashed black;
 }
 
 .text-center {
@@ -75,14 +80,12 @@ a :hover {
 }
 
 .social-link {
-    display: inline-block;
-}
-
-.social-link li a {
-    color: #4ce0d2ff;
-
-    text-decoration: none;
     list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: em;
 }
 
 .navbar-dark .navbar-toggler {
@@ -97,6 +100,64 @@ a :hover {
     line-height: 1.5;
 }
 
+.steps {
+    background-color: #645853ff;
+    color: #fafafa;
+    height: 20vh;
+
+    /*--------------------------------------These dashed lines were added in an attempt to mimc the effect of old film strips. They didn't look good enough to use for the guide page
+    border-left: 16px dashed black;
+    border-right: 16px dashed black;
+    */
+}
+
+.card {
+    margin-bottom: 25px;
+    max-height: 525px;
+}
+
+.card-body {
+    background-color: rgba(10, 9, 3, .7);
+    color: #fafafa;
+    text-align: center;
+}
+
+
+.card-img-top {
+    max-height: 400px;
+}
+
+.about-bar {
+    background-color: rgba(10, 9, 3, .7);
+    border-top: 15px dashed rgba(10, 9, 3, .7);
+    border-bottom: 15px dashed rgba(10, 9, 3, .7);
+    font-family: "Montserrat", sans-serif;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    letter-spacing: 4px;
+    padding: 20px 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.contact-box {
+    width: 400px;
+    height: 400px;
+    color: #4ce0d2ff;
+    text-transform: lowercase;
+    background-color: rgba(0,0,0,.7);
+}
+
+.footer-bar {
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.jumbotron {
+    margin: 35px 0px;
+}
+
 #showing-soon {
     background: url("/assets/images/johnwick.jpg") no-repeat center center;
     margin: 0;
@@ -109,50 +170,8 @@ a :hover {
     background-color: rgba(10, 9, 3, .8);
     padding: 20px;
     letter-spacing: 4px;
+    height: 70vh;
 }
-
-.steps {
-    background-color: rgba(245, 75, 2, 0.6);
-    color: black;
-    height: 20vh;
-
-    /*
-    border-left: 16px dashed black;
-    border-right: 16px dashed black;
-    */
-}
-
-.card-body {
-    background-color: rgba(10, 9, 3, .7);
-    color: #fafafa;
-    text-align: center;
-}
-.card-body a {
-    color: inherit;
-}
-
-.card-img-top {
-    max-height: 400px;
-}
-
-.about-bar {
-    background-color: rgba(10, 9, 3, .7);
-    border-top: 2px solid rgba(10, 9, 3, .7);
-    border-bottom: 2px solid rgba(10, 9, 3, .7);
-    font-family: "Montserrat", sans-serif;
-    color: rgba(255,255,255,1);
-    text-align: center;
-    letter-spacing: 4px;
-    padding: 20px 0px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-
-}
-
-.jumbotron {
-    margin: 35px 0px;
-}
-
 
 
 /*----------------------------------------------------------------------Hover.css */
@@ -302,18 +321,13 @@ a :hover {
 }
 
 
-/*
-@media only screen and (max-width: 1285px) {
+
+@media only screen and (max-width: 650px) {
 
 .logo {
     font-size: 2rem;
     width: 70vw;
 }
 
-.fixed-bottom {
-
 }
 
-
-
-}
